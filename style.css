@@ -16,7 +16,6 @@ hr {
 }
 
 body{
-/* font-family: 'Roboto Condensed', sans-serif; */
 font-family: 'Oswald', sans-serif;
 font-family: 'Roboto Condensed', sans-serif;
 font-size: 18px;
@@ -25,7 +24,6 @@ margin:0px;
 
 .link {
     text-decoration: none;
-    /* border:1px solid; */
     border-color: var(--primary-color);
     padding:0.5rem;
     margin: 5px ;
@@ -57,6 +55,7 @@ margin:0px;
 
 .unordered {
     list-style-type: none;
+    margin-bottom:0rem;
 }
 
 
@@ -120,6 +119,7 @@ margin:0px;
     box-shadow: 3px 3px 3px 3px gray ;
     margin:8px;
     
+    
 }
 .heading {
     text-align: center;
@@ -145,6 +145,7 @@ margin:0px;
 .footer {
    background-color: var(--primary-color);
   border-top-right-radius: 0.5rem;
+  margin-top:2rem;
 }
 
 .footer .footer-header {
