@@ -7,119 +7,45 @@
         <link href="style.css" rel="stylesheet" />
     </head>
     <body>
-        <h1>component library</h1>
-
-        <p>
-            This time <strong>Zylith</strong> is starting all over again and trying to get her hands dirty in web development.
-        </p>
-        <p>
-            She is scared but confident that she'll be able to complete it in few weeks and work hard in get into <strong>neogcamp</strong> one day.
-        </p>
-
-        <hr>
-
-        <h2>@typography</h2>
-
-        <h1>The biggest heading h1</h1>
-
-        <h2>The second biggest heading h2</h2>
-
-        <p>This is normal text.Long running text would look like this in your website.</p>
-
-        <small>This is relatively smaller text</small>
-
-        <hr>
-
-        <h2>@containers</h2>
-        <h3>@fluid container</h3>
-        <div class="container">
-            This is going to be a fluid container. It will go full width of the page. With some margin.
-        </div>
-        <h3>@center container</h3>
-        <div class="container container-center">
-            This is going to be center container. It will go till a goven width and center content.
-        </div>
-
-        <hr>
-        <h2>@links</h2>
-        <a class="link link-primary" href="/">Primary Link</a>
-        <a class="link link-secondary" href="/">Secondary Link</a>
-
-        <hr>
-
-        <h2>@lists</h2>
-        <h3>Unordered Lists</h3>
-        <p>We don't show bullets in the unordered list.We'll remove that with CSS</p>
-        <ul class="unordered">
-            <li class="list-item">item one</li>
-            <li class="list-item">item two</li>
-            <li class="list-item">item three</li>
-        </ul>
-
-        <h3>inline lists</h3>
-        <p>Instead of going in a new row, we will create a list which will take columns</p>
-        <ul class="unordered ">
-            <li class="list-item-inline">item one</li>
-            <li class="list-item-inline">item two</li>
-            <li class="list-item-inline">item three</li>
-        </ul>
-        
-        <h3>reverse ordered lists</h3>
-        <p>Counting will go reverse for this list</p>
-        <ol reversed class="ordered">
-            <li>item one</li>
-            <li>item two</li>
-            <li>item three</li>
-
-        </ol>
-        <hr>
-        <h2>@nav</h2>
         <nav class="nav-container">
-            <div class="brand-name">theBrandName</div>
+            <div class="brand-name">Zylith's corner</div>
             <div class="nav-links">
                 <ul class="unordered sub-link">
                     <li class="list-item-inline">
-                        <a class="link" href="/">Home</a>
+                        <a class="link link-active" href="index.html">Home</a>
                     </li>
                     <li class="list-item-inline">
-                        <a class="link" href="/">Projects</a>
+                        <a class="link" href="projects.html">Projects</a>
                     </li>
                     <li class="list-item-inline">
-                        <a class="link" href="/">Blogs</a>
+                        <a class="link" href="blogs.html">Blogs</a>
                     </li>
                 </ul>
             </div>
         </nav>
 
-        <hr>
-        <h2>@header</h2>
         <header class="header">
             <img class="header-img" src="images/study.svg" >
             <h1 class="headingOne"> Zylith, A <span class="headingTwo"> web developer </span>in making</h1>
         </header>
 
-        <hr>
-        <h2>@section</h2>
-        <p>A section is used to separate parts of pages.In marketing websites you would have seen a header followed by section of features,team,pricing,contact info etc.</p>
-        <h3>@normal section</h3>
         <section class="section">
             <!-- <h3>@normal section</h3> -->
             <h2 class="section-heading">Projects</h2>
             <img class="section-img" src="images/newproject.svg" >
             <p>Text defining this section and many more things.</p>
-            <a class="link link-primary">Primary Button</a>
+            <a class="link link-primary" href="projects.html">See Projects</a>
         </section>
-        <h3>@an off white section</h3>
-        <section class="ow section">
+        
+        <section class="section ow">
             <h2 class="section-heading">Blogs</h2>
             <img class="section-img" src="images/blogwriting.svg" >
             <p>Text defining this secton and many more things</p>
-            <a class="link link-primary">Primary Button</a>
+            <a class="link link-primary" href="blogs.html">See Blogs</a>
         </section>
-        <hr>
-        <h2>@footer</h2>
+
         <footer class="footer">
-            <div class="footer-header">Header inside footer</div>
+            <div class="footer-header">Social Media</div>
             <div >
                 <ul class="unordered">
                     <li class="list-item-inline">

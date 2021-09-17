@@ -20,6 +20,7 @@ body{
 font-family: 'Oswald', sans-serif;
 font-family: 'Roboto Condensed', sans-serif;
 font-size: 18px;
+margin:0px;
 }
 
 .link {
@@ -30,6 +31,10 @@ font-size: 18px;
     margin: 5px ;
     
     
+}
+
+.link-active {
+    font-weight: bold;
 }
 
 .link-primary {
@@ -71,7 +76,7 @@ font-size: 18px;
 .nav-container .brand-name {
     padding:1rem;
     font-weight: bold;
-    font-size: large;
+    font-size: larger;
     
 }
 
@@ -109,12 +114,20 @@ font-size: 18px;
 
 .section {
     /* border:1px solid #CEE1E8; */
-    padding:2rem;
+    padding:3rem;
     border-radius: 2rem;
     text-align: center;
     box-shadow: 3px 3px 3px 3px gray ;
-    margin:5px;
+    margin:8px;
     
+}
+.heading {
+    text-align: center;
+}
+
+.ow {
+    margin-top:2rem;
+    margin-bottom:2rem;
 }
 
 .section .section-heading {
