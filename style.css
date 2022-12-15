@@ -1,10 +1,10 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
 
 /* @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"); */
-/* 
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap'); */
 
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Roboto+Condensed:wght@400;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap'); */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Roboto+Condensed:wght@400;700&display=swap'); */
 
 :root {
     --primary-color:#312e52;
@@ -26,9 +26,7 @@ margin:0px;
     text-decoration: none;
     border-color: var(--primary-color);
     padding:0.5rem;
-    margin: 5px ;
-    
-    
+    margin: 5px ;   
 }
 
 .link-active {
@@ -68,15 +66,13 @@ margin:0px;
     border: 1px solid var(--primary-color);
     background-color: var(--primary-color);
     color: white;
-    border-bottom-left-radius: 0.5rem;
-    
+    border-bottom-left-radius: 0.5rem;   
 }
 
 .nav-container .brand-name {
     padding:1rem;
     font-weight: bold;
-    font-size: larger;
-    
+    font-size: larger;    
 }
 
 .nav-links {
@@ -86,21 +82,18 @@ margin:0px;
 }
 
 .nav-container .link{
-    color: white;
-    
+    color: white;   
 }
 
 .header {
-    padding:2rem;
-    
+    padding:2rem;    
 }
 
 .header-img {
     width:450px;
     max-width:80%;
     display: block;
-    margin:auto;
-   
+    margin:auto;  
 }
 
 .header .headingOne {
@@ -112,17 +105,13 @@ margin:0px;
 }
 
 .section {
-    /* border:1px solid #CEE1E8; */
     padding:3rem;
-    /* border-radius: 2rem; */
     text-align: center;
-    /* box-shadow: 3px 3px 3px 3px gray ; */
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
     margin:8px;
-    background-image: linear-gradient(to right, #e5d4fa, white);
-    /* border-bottom: #e5d4fa; */
-    
+    background-image: linear-gradient(to right, #e5d4fa, white);  
 }
+
 .heading {
     text-align: center;
     color:var(--primary-color);
@@ -140,10 +129,8 @@ margin:0px;
 }
 
 .section .section-img {
-
     width:300px;
-    max-width:80%;
-    
+    max-width:80%;   
 }
 
 .footer {
@@ -165,9 +152,9 @@ margin:0px;
     list-style-type: none;
     text-align: center;
     padding:1rem;
-    margin-top:0px;
-    
+    margin-top:0px;   
 }
+
 .footer .link {
     color: white;
 }
