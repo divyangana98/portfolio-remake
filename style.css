@@ -7,7 +7,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Roboto+Condensed:wght@400;700&display=swap');
 
 :root {
-    --primary-color:#BB428B;
+    --primary-color:#312e52;
     --off-white:  #f3f4f6;
 }
 
@@ -114,15 +114,18 @@ margin:0px;
 .section {
     /* border:1px solid #CEE1E8; */
     padding:3rem;
-    border-radius: 2rem;
+    /* border-radius: 2rem; */
     text-align: center;
-    box-shadow: 3px 3px 3px 3px gray ;
-    margin:8px;
-    
+    /* box-shadow: 3px 3px 3px 3px gray ; */
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    margin:2rem 5rem 2rem 5rem;
+    background-image: linear-gradient(to right, #e5d4fa, white);
+    /* border-bottom: #e5d4fa; */
     
 }
 .heading {
     text-align: center;
+    color:var(--primary-color);
 }
 
 .ow {
@@ -133,6 +136,7 @@ margin:0px;
 .section .section-heading {
     text-align: center;
     margin-top:0rem;
+    color:var(--primary-color);
 }
 
 .section .section-img {
